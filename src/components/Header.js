@@ -1,26 +1,27 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 
-const Header = props => (
+const Header = (props) => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
-    <div className="logo">
+    {/* <div className="logo">
       <span className="icon fa-diamond"></span>
-    </div>
+    </div> */}
     <div className="content">
       <div className="inner">
-        <h1>Dimension</h1>
-        <p>
+        <h1>The Oxford Street</h1>
+        <h2>Property Company</h2>
+        {/* <p>
           A fully responsive site template designed by{' '}
           <a href="https://html5up.net">HTML5 UP</a> and released
           <br />
           for free under the{' '}
           <a href="https://html5up.net/license">Creative Commons</a> license.
-        </p>
+        </p> */}
       </div>
     </div>
-    <nav>
+    {/* <nav>
       <ul>
-        <li>
+         <li>
           <button
             onClick={() => {
               props.onOpenArticle('intro')
@@ -46,7 +47,7 @@ const Header = props => (
           >
             About
           </button>
-        </li>
+        </li> 
         <li>
           <button
             onClick={() => {
@@ -57,7 +58,7 @@ const Header = props => (
           </button>
         </li>
       </ul>
-    </nav>
+    </nav> */}
   </header>
 )
 
